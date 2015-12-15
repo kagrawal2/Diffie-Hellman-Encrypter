@@ -137,7 +137,7 @@ def demonstrate():
 	print("The public Modulus is", str(publicMod) + '.')
 	print("Calculating random possible generators for", str(publicMod) +':')
 	publicGen = get_generator(publicMod, 3, 999)
-	print("The public generator is", str(publicGen) + '.')
+	print("The public generator is", str(publicGen) + '.\n')
 
 	global MAX
 	MAX = int(input("Choose an upper limit for your secret numbers."
@@ -199,8 +199,8 @@ def demonstrate():
 	print("For more info, go to https://en.wikipedia.org/wiki/Diffie–Hellman_key_exchange\
 	to learn more about the Diffie–Hellman Key Exchange\n")
 
-if __name__ == '__main__':
-	demonstrate()
+# if __name__ == '__main__':
+demonstrate()
 
 
 
